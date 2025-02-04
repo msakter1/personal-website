@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Your Name - Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/movie.css">
+    <link rel="stylesheet" href="css/creative.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-icons">
+        <i class="floating-icon fa-solid fa-book"></i>
+        <i class="floating-icon fa-solid fa-paintbrush"></i>
+        <i class="floating-icon fa-solid fa-film"></i>
+        <i class="floating-icon fa-solid fa-palette"></i>
+        <i class="floating-icon fa-solid fa-music"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="neon-navbar">
+        <div class="nav-links">
+            <button class="nav-button" data-section="home"><i class="fa-solid fa-house"></i> Home</button>
+            <button class="nav-button" data-section="projects"><i class="fa-solid fa-code"></i> Projects</button>
+            <button class="nav-button" data-section="books"><i class="fa-solid fa-book-open"></i> Books</button>
+            <button class="nav-button" data-section="movies"><i class="fa-solid fa-clapperboard"></i> Movies</button>
+            <button class="nav-button" data-section="creations"><i class="fa-solid fa-palette"></i> Creations</button>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+    <section id="home" class="section active">
+        <div class="hero">
+            <div class="profile-container">
+                <div class="profile-frame">
+                    <img src="images/cropped_mountain.png" alt="Musammat Akter" class="profile-pic">
+                </div>
+            </div>
+            <h1 class="neon-text">🌸 Musammat Akter 🌸</h1>
+            <div class="tagline">
+                <!-- <span class="typewriter">Artist</span>
+                <span class="typewriter">Book Worm</span>
+                <span class="typewriter"></span> -->
+                <p>Artist • Book Worm • Creative Soul</p> 
+            </div>
+        </div>
+        <div class="fav-playlist">
+            <h3>My Current Fav Playlist:</h3>
+            <br>
+        </div>
+        <div class="spotify-embedded">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0gbjx6e62ST88XR9T5fdf6?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="content-container">
+            <h2 class="section-title">💻 Coding Projects</h2>
+            <div class="card-grid">
+                <!-- Add project cards here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section id="books" class="section active">
+        <div class="book-page">
+            <h2 class="section-title">📚 Book Reviews</h2>
+            <div class="review-grid">
+                <!-- Book Reviews: -->
+
+                <!-- Book 1: Scythe -->
+                <div class="book-review">
+                    <div class="book-cover">
+                        <img src="images/scythe.jpeg" alt="Book Cover">
+                        <div class="book-rating">
+                            4.5/5
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <h3>Scythe</h3>
+                        <div class="review-meta">
+                            <div class="rating" data-rating="4.5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <span class="review-date">Jan 8, 2024</span>
+                        </div>
+                        
+                        <p class="review-text"> 
+                            I finally got around to reading <i>Scythe</i> by Neal Shusterman a while ago. It was a pretty easy read with some thoughtful and interesting characters like Scythe Faraday and Scythe Curie. However, the "main characters"—since the book shifts between multiple random POVs—felt very one-dimensional and hard to connect with. With that being said, the world-building was excellent, and the book raises some fascinating questions about life, death, and what it truly means to live. My biggest gripe? The forced romance between the main characters—it was completely unnecessary.
+                        </p> 
+
+                        <a href="#" class="read-more">Read Review</a>
+                    </div>
+                </div>
+                <!-- Book 2: Thunderhead -->
+                <div class="book-review">
+                    <div class="book-cover">
+                        <img src="images/thunderhead.jpg" alt="Book Cover">
+                        <div class="book-rating">
+                            4/5
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <h3>Thunderhead</h3>
+                        <div class="review-meta">
+                            <div class="rating" data-rating="4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <span class="review-date">Jan 17, 2024</span>
+                        </div>
+                        
+                        <p class="review-text"> 
+                            After <i>Scythe</i>, I picked up the second book in the series, <i>Thunderhead</i>. In contrast to the first book, this one dives much deeper into the Thunderhead’s perspective, which I absolutely loved. Without a doubt, the best character in this book was the Thunderhead itself.  
+
+                            As for the main characters, they spend most of the book apart—Rowan is off on a vigilante mission, while Citra has fully stepped into her role as a Scythe. We’re also introduced to a new character, Greyson Tolliver. At first, I wasn’t sure what his purpose was, but he quickly became a breath of fresh air. His dynamic with the Thunderhead was one of the most compelling parts of the book.  
+
+                            Overall, I really enjoyed <i>Thunderhead</i>. Another quick and engaging read. <strong>4/5 stars</strong>.
+                        </p> 
+
+                        <a href="#" class="read-more">Read Review</a>
+                    </div>
+                </div>
+
+                <!-- Book 3: The Toll -->
+                <div class="book-review">
+                    <div class="book-cover">
+                        <img src="images/The Toll.jpg" alt="Book Cover">
+                        <div class="book-rating">
+                            3/5
+                        </div>
+
+                    </div>
+                    <div class="review-content">
+                        <h3>The Toll</h3>
+                        <div class="review-meta">
+                            <div class="rating" data-rating="3">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <span class="review-date">Jan 30, 2024</span>
+                        </div>
+                        
+                        <p class="review-text">
+                            The final book in the trilogy was… interesting, to say the least. For one, our main characters are barely present. Instead, we get a religious cult, a whole lot of other shenanigans, and a weirdly unexpected ending.  
+
+                            (regarding the ending) 
+                            It really made me wonder—is this what Neal Shusterman believes the world is headed toward? Or does he see this as the <strong>only</strong> solution? Not that I necessarily disagree or have a better alternative, but it’s definitely something to think about. The book raises some deep questions about human conflict and what the <strong>right</strong> solution to it might be. 
+                            
+                            Overall, it was a solid read—quick and thought-provoking—but it didn’t quite live up to the first two books. <strong>3/5 stars</strong></p> 
+
+                        <a href="#" class="read-more">Read Review</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section id="movies" class="section">
+        <div class="movie-page">
+            <h2 class="section-title">🎬 Movie Reviews</h2>
+            <div class="review-grid">
+                <!-- Add movie reviews here -->
+
+                <!-- MOVIE 1: Under the Hawthorn Tree -->
+                <div class="book-review"> 
+                    <div class="book-cover"> 
+                        <img src="images/Under the hawthorne tree.jpeg" alt="Movie Poster">
+                        <div class="movie-rating">
+                            5/5
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <h3>Under The Hawthorn Tree</h3>
+                        <div class="review-meta">
+                            <div class="rating" data-rating="4.5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-date">Jul 16, 2024</span>
+                        </div>
+                        <div class="genre-tags">
+                            <span class="tag">Romance</span>
+                            <span class="tag">Drama</span>
+                        </div>
+                        <div class="review-text">
+                            <p class="short-text">
+                                <br>
+                                This movie made me bawl my eyes out...T_T <br><br> 
+                                It's about the budding love between two young people in communist China. Without getting too controversial, it really captures the harsh realities of life back then—scarcity of food, a lack of political freedom, and the heavy burdens placed on individuals. A young girl is forced to become the head of her family when her father is taken away as a political prisoner. <br><br>    
+                            </p>
+                            <p class="full-text" style="display: none;">
+                                <br> 
+                                This movie made me bawl my eyes out...T_T <br><br> 
+                                It's about the budding love between two young people in communist China. Without getting too controversial, it really captures the harsh realities of life back then—scarcity of food, a lack of political freedom, and the heavy burdens placed on individuals. A young girl is forced to become the head of her family when her father is taken away as a political prisoner. <br><br> 
+    
+                                Sent off to do hard labor in the countryside, she meets a boy, and they fall in love. The movie then follows their journey as they face the many challenges of being a young couple in that tough era. <br><br> 
+    
+                                The film is genuinely beautiful to watch, and the lead actors really bring their characters to life. I've seen Zhou Dongyu in <i>Better Days</i> (T_T) and Shawn Dou in <i>Princess Agents</i> before, and while I already admired them, this movie made me see them in an entirely new light. Their acting is just phenomenal. This was my first real film from Mainland China, and I can tell there’s so much more for me to explore.<br> 
+                            </p>
+                        </div>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+
+
+
+
+                
+                <!-- MOVIE 2: Suddenly Seventeen -->
+                <div class="book-review"> <!-- Reuse book-review class -->
+                    <div class="book-cover"> <!-- Reuse book-cover class -->
+                        <img src="images/Suddenly Seventeen.jpeg" alt="Movie Poster">
+                        <div class="movie-rating">
+                            5/5
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <h3>Suddenly Seventeen</h3>
+                        <div class="review-meta">
+                            <div class="rating" data-rating="4.5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-date">Oct 1, 2024</span>
+                        </div>
+                        <div class="genre-tags">
+                            <span class="tag">Romance</span>
+                            <span class="tag">Fantasy</span>
+                            <span class="tag">Comedy</span>
+                        </div>
+                        <div class="review-text">
+                            <p class="short-text">
+                                <br>
+                                This was such a fun movie! Ni Ni is such a dynamic actress. <br> <br>  
+
+                                It follows a woman in her 30s who feels stuck in life. She was once a free-spirited artist with a vibrant outlook, but now she’s living the life of a wealthy housewife, lacking the confidence to create art.<br><br>    
+
+                                One day, she stumbles upon a commercial for a chocolate that claims to take you back to your younger days. She eats it—and suddenly, her soul transforms into her 17-year-old self. Physically, she remains in the present, but mentally, she’s a teenager... <br><br>   
+                            </p>
+                            <p class="full-text" style="display: none;">
+                                <br> 
+                                This was such a fun movie! Ni Ni is such a dynamic actress. <br> <br>  
+
+                                It follows a woman in her 30s who feels stuck in life. She was once a free-spirited artist with a vibrant outlook, but now she’s living the life of a wealthy housewife, lacking the confidence to create art.<br><br>    
+
+                                One day, she stumbles upon a commercial for a chocolate that claims to take you back to your younger days. She eats it—and suddenly, her soul transforms into her 17-year-old self. Physically, she remains in the present, but mentally, she’s a teenager again. <br><br>    
+
+                                Each time she eats the chocolate, her 17-year-old self resurfaces, but the supply is limited. This leads to the chaotic coexistence of both versions of herself.<br><br>     
+
+                                Her teenage self meets a rebellious biker boy and gets caught up in a whirlwind romance, bringing all sorts of trouble into the MC’s life. She’s impulsive, fearless, and stirs up chaos—but she still has all her artistic talent and refuses to be spineless. Meanwhile, the MC is still holding onto feelings for her husband, who barely acknowledges her existence. <br><br>    
+
+                                As time passes, the two versions of herself grow frustrated with one another. They have no choice but to learn how to coexist. (T_T) <br><br>    
+
+                                The ending is surprisingly satisfying—the MC regains her sense of self and prevents her younger self from making the same reckless mistake she once did.<br><br>     
+
+                                Overall, a super fun movie to watch. Also, Darren Wang??!!??.<br>
+                            </p>
+                        </div>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+                <!-- end of moview 2 review -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Creations Section -->
+    <section id="creations" class="section">
+        <div class="creations-page">
+            <h2 class="section-title">🎨 Creations & Crafts</h2>
+            <div class="creations-grid">
+                <!-- Creation Example -->
+
+                <!-- Creation 1: Wonyoung Drawing -->
+                <div class="creation-card">
+                    <div class="creation-image">
+                        <img src="images/wonyoung-drawing.jpg" alt="Wonyoung">
+                        <div class="creation-overlay">
+                            <button class="view-btn">
+                                <i class="fa-solid fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="creation-info">
+                        <h3>Drawing of Wonyoung</h3>
+                        <p class="creation-date">Created: 2022</p>
+                        <p class="creation-desc">Digital Art of Wonyoung of IVE</p>
+                    </div>
+                </div>
+    
+                <!-- Creation 2: Crochet work -->
+                <div class="creation-card">
+                    <div class="creation-image">
+                        <img src="images/bag2.png" alt="Crochet shoulder bag">
+                        <div class="creation-overlay">
+                            <button class="view-btn">
+                                <i class="fa-solid fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="creation-info">
+                        <h3>Crochet Shoulder Bag</h3>
+                        <p class="creation-date">Created: 2025</p>
+                        <p class="creation-desc">A bag I crocheted recently. It turned out pretty cute!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
