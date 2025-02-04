@@ -1,11 +1,9 @@
-/* Movie Page Container */
 .movie-page {
     padding: 2rem;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-/* Movie Review Card */
 .movie-review {
     background: var(--white);
     border-radius: 15px;
@@ -21,7 +19,6 @@
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
-/* Movie Poster */
 .movie-poster {
     width: 100%;
     height: 350px;

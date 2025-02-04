@@ -1,11 +1,9 @@
-/* Creations Page */
 .creations-page {
     padding: 2rem;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-/* Grid Layout */
 .creations-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -13,7 +11,6 @@
     padding: 1rem;
 }
 
-/* Creation Card */
 .creation-card {
     background: var(--white);
     border-radius: 15px;
@@ -29,7 +26,7 @@
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
-/* Image Container */
+
 .creation-image {
     position: relative;
     width: 100%;
@@ -51,7 +48,6 @@
     transform: scale(1.05);
 }
 
-/* Overlay Effect */
 .creation-overlay {
     position: absolute;
     top: 0;
@@ -85,7 +81,6 @@
     transform: scale(1.1);
 }
 
-/* Creation Info */
 .creation-info {
     padding: 1.5rem;
     text-align: center;
